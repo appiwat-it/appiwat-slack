@@ -14,5 +14,5 @@ Slack.sendMessage({
   title: 'title of the message',
   message: 'message body',
   body: 'extra json.stringify information'
-})
+});
 ```
