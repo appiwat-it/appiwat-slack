@@ -1,0 +1,21 @@
+{
+  "name": "@appiwat/slack",
+  "version": "1.0.0",
+  "description": "Customized slack webhook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack",
+    "webhook",
+    "appiwat-it",
+    "appiwat",
+    "fourmi"
+  ],
+  "author": "Michael Devel",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/webhook": "^6.0.0"
+  }
+}
