@@ -39,6 +39,13 @@ const sendMessage = async ( options, url = process.env.SLACK_WEBHOOK_URL ) => {
               text: `\`\`\`${options.message}\`\`\``,
             },
           },
+          {
+            type: 'section',
+            text: {
+              type: 'mrkdwn',
+              text: `\`\`\`${JSON.stringify( options.body )}\`\`\``,
+            },
+          },
         ],
       }],
     } );
