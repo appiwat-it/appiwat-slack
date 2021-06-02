@@ -6,7 +6,7 @@ We created this package for using webhook in our projects.
 > npm i @appiwat/slack
 
 ## Add ENV for SLACK_WEBHOOK_URL
-The default SLACK_WEBHOOK_URL is access from process.env.SLACK_WEBHOOK_URL. However, we can also pass the incoming webhook URL via `sendMessage( options, url )` as well.
+The default SLACK_WEBHOOK_URL is accessed from process.env.SLACK_WEBHOOK_URL. However, we can also pass the incoming webhook URL via `sendMessage( options, url )` as well.
 
 ### Usage
 ```
