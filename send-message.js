@@ -11,8 +11,8 @@ const { IncomingWebhook } = require( '@slack/webhook' );
  * @param [url] - optional SLACK WEBHOOK URL. Default to env SLACK_WEBHOOK_URL
  */
 const sendMessage = async ( options, url = process.env.SLACK_WEBHOOK_URL ) => {
-  if( process.env.NODE_ENV !== 'production' ) return;
-  
+  if( process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'staging' ) return;
+
   const webhook = new IncomingWebhook( url );
 
   try {
