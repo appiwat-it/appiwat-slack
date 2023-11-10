@@ -21,6 +21,6 @@
   "author": "Michael Devel",
   "license": "ISC",
   "dependencies": {
-    "@slack/webhook": "^6.0.0"
+    "@slack/webhook": "^7.0.1"
   }
 }
